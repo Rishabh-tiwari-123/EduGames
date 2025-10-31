@@ -1,9 +1,11 @@
-# EduGame - Learn Through Play 🎮
+# EduGames - Learn Through Play 🎮 📚
 
-EduGame is an interactive educational platform that combines learning with gaming elements to make education more engaging and fun. The application offers various subjects including Geography, Chemistry, and Physics, with interactive quizzes and games.
+EduGames is an interactive educational platform that combines learning with gaming elements to make education more engaging and fun. Our platform offers various subjects including Chemistry and Physics, with interactive quizzes, games, and an AI-powered chatbot to assist in learning.
 
 ## 🌐 Live Demo
-[Play EduGame](https://edu-games-play-and-learn1.vercel.app/chat)
+[Play EduGames](https://edu-games-play-and-learn1.vercel.app/)
+
+![EduGames Screenshot](public/logo.png)
 
 ## 📱 Progressive Web App (PWA) Features
 
@@ -35,21 +37,26 @@ EduGame is an interactive educational platform that combines learning with gamin
 
 ## 🛠️ Technical Stack
 
-- **Frontend**: React.js with Vite
-- **Styling**: TailwindCSS
+- **Frontend**: React.js v19 with Vite
+- **Styling**: TailwindCSS v4.1, Custom CSS
+- **Backend**: Firebase v12.3
+- **Database**: Firestore
+- **Authentication**: Firebase Auth
 - **State Management**: React Context API
-- **Routing**: React Router
+- **Routing**: React Router v7.9
 - **PWA Support**: Vite PWA Plugin
 - **AI Integration**: OpenRouter API
-- **Animations**: Framer Motion
-- **Icons**: React Icons
+- **Animations**: Framer Motion v12.23
+- **Icons**: React Icons v5.5
+- **Development**: ESLint v9.33
 - **Deployment**: Vercel
 
-## 📱 Installation
+## 📱 Installation and Setup
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Rishabh-tiwari-123/EduGames.git
+cd EduGamesAPP/EduGameResp
 ```
 
 2. Install dependencies:
@@ -57,15 +64,28 @@ git clone [repository-url]
 npm install
 ```
 
-3. Start the development server:
+3. Set up environment variables:
+Create a `.env` file in the root directory and add your Firebase configuration:
+```env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Build for production:
+5. Build for production:
 ```bash
 npm run build
 ```
+
+Visit `http://localhost:5173` to view the application in development mode.
 
 ## 🌟 Key Components
 
@@ -106,6 +126,13 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Support
+## 📞 Contact & Support
 
-For support, email [support-email] or join our Discord channel.
+- **GitHub**: [@Rishabh-tiwari-123](https://github.com/Rishabh-tiwari-123)
+- **Project Repository**: [EduGames](https://github.com/Rishabh-tiwari-123/EduGames)
+
+For support, please open an issue in the GitHub repository.
+
+---
+
+Made with ❤️ by Rishabh Tiwari
